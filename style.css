@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+    body {
+        background-image: linear-gradient(rgb(120, 128, 136), white);
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+
+    nav .row {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100px;
+        background-color: rgb(9, 9, 71);
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li {
+        list-style: none;
+        margin: 0 23px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    nav ul li a:hover {
+        color: rgb(133, 133, 230);
+    }
+
+    .col-md-4 {
+        font-size: 1.7rem;
+        color: rgb(213, 224, 224);
+        text-align: center;
+    }
+
+    .col-md-8 {
+        font-size: 1.2rem;
+    }
+
+    .firstsection {
+        display: flex;
+        justify-content: space-around;
+        margin: 80px 0;
+        align-items: center;
+    }
+
+    .firstsection>div {
+        width: 30%;
+        color: black;
+    }
+
+    .rightsection img {
+        width: 90%;
+    }
+
+    .leftsection {
+        font-size: 3rem;
+    }
+
+    .purple {
+        color: rgb(73, 26, 116);
+    }
+
+    #element {
+        color: rgb(78, 40, 113);
+    }
+
+    .secondsection h1 {
+        font-size: 3rem;
+        text-align: center;
+        color: rgb(75, 30, 116);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+    }
+
+    main hr {
+        margin: 60px 84px;
+        height: 1.2px;
+        border: 0;
+        background-color: rgb(60, 60, 112);
+    }
+
+    .aboutsection {
+        display: flex;
+        justify-content: space-around;
+        margin: 70px 0;
+        color: black;
+    }
+
+    .aboutsection>div {
+        width: 35%;
+        color: black;
+
+    }
+
+    .aboutleftsection img {
+        width: 60%;
+        margin-left: 200px;
+        border-radius: 80%;
+        border: 4px solid rgb(28, 28, 91);
+        box-shadow: 7px 7px 7px 7px rgb(95, 108, 114);
+    }
+
+    .f1 {
+        margin: auto 5;
+        font-size: 2.5rem;
+    }
+
+    .f2 {
+        font-size: 1.8rem;
+        margin: 10px 0;
+    }
+
+    .f3 {
+        font-size: 1.3rem;
+        margin: 15px 0;
+        word-spacing: 5px;
+        color: black;
+    }
+
+    .skillsection {
+        margin: auto;
+        color: black;
+        height: 85vh;
+    }
+
+    .skillsection .box {
+        width: 300px;
+        height: 300px;
+        border: 3px solid rgb(10, 5, 89);
+        padding: 30px;
+        margin: 70px;
+        float: left;
+        color: white;
+        align-items: center;
+        box-shadow: 5px 5px 7px 7px rgb(107, 99, 147);
+        background-color: rgb(14, 14, 70);
+        font-size: 2rem;
+        text-align: center;
+        border-radius: 25px;
+    }
+
+    .skillsection img{
+        height: 150px;
+        width: 150px;
+    }
+
+    .educationsection {
+        height: auto;
+        align-items: center;
+        text-align: center;
+    }
+
+    .educationsection h1 {
+        font-size: 3rem;
+        text-align: center;
+        color: rgb(75, 30, 116);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-top: 100px;
+    }
+
+    .educationsection .box {
+        width: 600px;
+        height: 430px;
+        border: 3px solid rgb(216, 215, 225);
+        padding: 10px;
+        margin: 70px 630px;
+        color: rgb(145, 64, 10);
+        box-shadow: 5px 5px 7px 7px rgb(143, 139, 168);
+        background-color: white;
+        font-size: 1.7rem;
+        border-radius: 15px;
+        text-align: left;
+    }
+
+    .educationsection img {
+        width: 570px;
+        height: 230px;
+        border-radius: 15px;
+    }
+
+    .projectsection{
+        height: 500px;
+    }
+
+    .projectsection .box {
+        width: 500px;
+        height: 350px;
+        border: 3px solid rgb(10, 5, 89);
+        padding: 10px;
+        margin: 50px 50px;
+        float: left;
+        color: rgb(255, 255, 255);
+        align-items: center;
+        box-shadow: 5px 5px 7px 7px rgb(107, 99, 147);
+        background-color: rgb(14, 14, 70);
+        border-radius: 25px;
+    }
+
+    .projectsection img {
+        width: 475px;
+        height: 230px;
+        border-radius: 25px;
+    }
+
+    .contactsection{
+        height: 850px;
+        
+    }
+
+    .contactsection .box{
+        width: 1200px;
+        height: 600px;
+        border: 3px solid rgb(255, 255, 255);
+        padding: 40px;
+        margin: 50px 350px;
+        float: left;
+        color: rgb(255, 255, 255);
+        align-items: center;
+        background-color:rgb(66, 61, 61);
+        border-radius: 15px;
+
+    }
+
+    .contactsection .box .form-group input[type=text]{
+        padding: 12px 30px;
+        width: 100%;
+        margin: 8px 0;
+        border: none;
+        border-bottom: 1px solid rgb(148, 140, 140);
+    }
+
+    footer {
+        background-color: rgb(9, 9, 71);
+        height: 320px;
+        color: white;
+    }
+
+    .footer {
+        display: flex;
+        padding: 23px 123px;
+        justify-content: space-around;
+    }
+
+    .footer-first {
+        width: 190px;
+    }
+
+    .footer-first p {
+        line-height: 30px;
+    }
+
+    .footer-second ul li {
+        list-style: none;
+        text-align: center;
+        margin: 5px;
+    }
+
+    .footer-second ul li a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+
+    .footer-third{
+        width: 400px;
+    }
+
+    .footer-third .fa{
+        color: white;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .footer-rights{
+        text-align: center;
+    }
